@@ -1,0 +1,462 @@
+/* General page style */
+ html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+
+.no-padding {
+    padding: 0px;
+}
+* {
+    box-sizing: border-box;
+    font-family: 'Merriweather','Helvetica Neue', Arial, sans-serif;
+}
+
+
+/*when i want to use it*/
+.text-center {
+    text-align: center;
+}
+.text-faded {
+    color: rgba(255, 255, 255, 0.7);
+}
+.text-muted {
+    color: #777;
+}
+.display{
+    display: flex;
+}
+
+
+/*navigation Bar*/
+.navbar {
+    border: 0px;
+    background-color: #000;
+    opacity: 0.7;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 1030;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.navbar-header {
+    float: left;
+}
+
+.navbar-header>a {
+    color: #D5D8DC;
+    line-height: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px;
+    float: left;
+}
+.navbar-body{
+    float: right;
+}
+.navbar-list {
+    float: right;
+    list-style: none;
+}
+.navbar-list>li {
+    float: left;
+}
+
+
+.navbar-list>li>a{
+    color: #D5D8DC;
+    line-height: 20px;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px;
+ 
+}
+
+
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: 500;
+    line-height: 1.1;
+    margin-bottom: 10px;
+}
+h2 {
+    font-size: 30px; 
+}
+
+h3 {
+   font-size: 24px;
+}
+
+
+
+
+p{
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 0 10px;
+    color: black;
+
+}
+hr{
+    max-width: 50px;
+    height: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-top: 4px solid #F05F40;
+}
+hr.light {
+    border-color: #fff;
+}
+section{
+    padding: 100px 0;
+}
+.container {
+    width: 75%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section-body {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+img {
+    display: block;
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0px;
+
+}
+.btn {
+    padding: 15px 30px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 300px;
+    vertical-align: middle;
+    line-height: 1.4;
+    font-size: 14x;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration:  none;
+    color: #fff;
+    background-color: #F05F40;
+    display: inline-block;
+}
+.btn-light {
+    color: #000;
+    background-color: #a80b0b;
+}
+
+header {
+    min-height: 100%;
+    color: #fff;
+    background: url(/images/beautful\ image\ .jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-content {
+    position: absolute;
+    top: 25%;
+    padding: 0 50px;
+}
+header, header .header-content {
+    width: 100%;
+}
+.header-content-innder {
+    margin-left: auto;
+    margin-right: auto;
+}
+.header-content-innder h1 {
+    font-size: 50px;
+
+}
+.header-content-innder hr {
+    margin: 30px auto;
+
+}
+.header-content-innder p {
+    max-width: 80%;
+    padding: 10px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 24px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 1);
+    background: rgba(46, 110, 138, 0.4);
+}
+
+
+/*About section*/
+.bg-primary {
+    background-color: #F05F40;
+    color: aliceblue;
+    
+}
+/*Activities Section*/
+.inline{
+    display: inline-block;
+}
+.activity-container {
+    width: 25%;
+    float: left;
+    height: 325;
+ 
+   
+
+}
+.margin2{
+    text-align: center;
+ 
+}
+.activity-box {
+    max-width: 400px;
+    margin: 50px 15px;
+}
+.activity-box>i {
+    color: #F05F40;
+}
+.activitiesactivities{
+    margin: 400px;
+}
+/*
+phtptos section
+*/
+  
+#photos .container {
+    width: 100%;
+    padding: 0px;
+}
+.row-col{
+    width: 33.333333%;
+    position: relative;
+    float: left;
+
+
+}
+
+.photo-box {
+    position: relative;
+    display: block;
+    max-width: 650px;
+    margin: 0 auto;
+}
+.photo-box-caption {
+    color: ivory;
+    background: rgba(240, 95, 64, .9);
+    opacity: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}
+.photo-box:hover .photo-box-caption {
+    opacity: 1;
+
+}
+.photo-box-caption-content {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+
+
+}
+.marrgine {
+    margin-left: 500px;
+}
+.photo-title {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
+
+}
+.photo-location {
+    font-size: 22px;
+
+}
+.photo-title, .photo-location {
+    padding: 0 15px;
+
+}
+
+
+/*
+Aside
+*/
+
+
+
+
+aside {
+    clear: both;
+    padding: 50px 0;
+    text-align: center;
+  
+}
+.bg-dark {
+    background-color: #c0b4a1;
+    color: #fff;
+}
+/*
+Contact section
+*/
+
+#Contact .row-col {
+    width: 100%;
+}
+.Contact-box{
+    width: 50%;
+    float: left;
+    margin: 30px auto;
+}
+.Contact-boxP>a {
+    color: #F05F40;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Header*/
+/*.header {
+min-height: 100%;
+color:#fff;
+background: url(../images/OIP\ \(9\).jpg);
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+}*/
+/*.header-content{
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    padding: 500px;
+    min-height: 100%;
+    color:#fff;
+    background: url(../images/beautful\ image\ .jpg) ;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*header, header .header-content {
+    width: 100%;
+
+}
+.header-content-inner {
+    margin-left: auto;
+    margin-right: auto;
+}
+.header-content-inner h1 {
+    font-size: 50px;
+
+}
+.header-content-inner hr {
+    margin: 30px auto;
+
+}
+.header-content-inner p {
+    max-width: 80%;
+    padding: 10px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    font-size: 24px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 1);
+    background: rgba(46, 110, 138, 0.4);
+}*/
